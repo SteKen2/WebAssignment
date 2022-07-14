@@ -131,6 +131,11 @@ textarea {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 992px){
+    .contactheader{
+        margin-top: 50px;
+    }
+}
 @media (max-width: 728px){
 
     .contactheader{
