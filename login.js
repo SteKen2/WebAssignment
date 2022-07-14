@@ -32,7 +32,7 @@ function login(){
 
     if( usercheck && passcheck){
         alert("Login Successful")
-        window.location.href = "http://127.0.0.1:5500/index.html";
+        window.location.href = "https://steken2.github.io/WebAssignment/";
     }
     
 } 
