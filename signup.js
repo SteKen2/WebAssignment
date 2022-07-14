@@ -47,7 +47,7 @@ function signup(){
 
     if(usercheck && passcheck && repasscheck){
         alert("Sign Up Successfully")
-        window.location.href = "http://127.0.0.1:5500/login.html";
+        window.location.href = "https://steken2.github.io/WebAssignment/login.html";
     }
     
 } 
