@@ -46,7 +46,7 @@ function contact(){
     }
 
     if (namecheck && emailcheck && subjectcheck && commentcheck){
-
+        alert("Submitted")
     }
 
 }
