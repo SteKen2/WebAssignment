@@ -1,0 +1,117 @@
+*{
+    background-color: #090f1b;
+    font-family: 'Ubuntu', sans-serif;
+}
+.loginpage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+
+   
+}
+.image{
+    
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    
+    
+}
+
+.image img{
+    width: 600px;
+    height: 600px;
+}
+
+
+.login-main-box{
+    
+    justify-content: center;
+    
+    height: 25rem;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.loginheader{
+    
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.login-inner{
+    margin: auto;
+    height: 200px;
+    width: 100%;
+   
+    text-align: center;
+}
+
+.form-container{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+   
+}
+
+
+input{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    height: 50px;
+    border-radius: 7px;
+
+    background-color: white;
+}
+
+
+
+.buttonwrap{
+    margin-top: 20px;
+}
+
+
+
+
+button{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+   
+    background-color: #FF7518;
+    
+    border: none;
+    
+}
+
+
+.login-button{
+    margin-right:10px;
+}
+
+button:hover {
+	background: #FF605C;
+}
+@media (max-width: 992px){
+    .image{
+        visibility: hidden;
+        width: 0%;
+    }
+
+    .login-main-box{
+        width: 100%;
+    }
+
+
+}

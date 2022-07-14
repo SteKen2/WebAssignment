@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background: #090f1b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 25px;
+    z-index: 1;
+}
+
+.navbar .inner_navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar .hamburger{
+	display: none;
+}
+
+.navbar .logo a{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+
+
+.navbar .menu ul{
+	display: flex;
+}
+
+.navbar .menu ul li a{
+	width: 120px;
+	margin-right: 10px;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.2s ease;
+}
+
+.navbar .menu ul li:last-child a{
+	margin-right: 0;	
+}
+
+.navbar .menu ul li a:hover,
+.navbar .menu ul li a.active{
+	background: #FF7518;
+}
+
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)) ,url(image/BGimg.jpg);
+}
+
+.about .box2{
+    display: flex;
+    
+    
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+
+.aboutimage{
+    max-width: 27em;
+    min-width: 20em;
+    max-height: 37em;
+    min-height: 30em;
+    
+    border-radius: 20px;
+    margin: auto;
+}
+
+.about .aboutimg{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    
+    
+}
+
+.about .abouttxt{
+    width: 50%;
+    
+    
+}
+
+.aboutheader{
+    width: 100%;
+    padding: 20px 0px 0px 2rem;
+    font-size: 2rem;
+    color: #FF7518;
+
+}
+
+.aboutdesc{
+    width: 100%;
+    padding: 40px 30px 0px 2rem;
+    font-size: 1rem;
+    color: white;
+    
+}
+
+.aboutdesctitle{
+    font-size: 1.5rem;
+    
+} 
+
+.descp{
+    font-size: 1rem;
+    line-height: 25px;
+    word-spacing: 2px;
+    
+}
+
+.abtresumebtn{
+    padding: 40px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.abtresumebtn.abtresume{
+    width: 50%;
+    
+}
+.abtresumebtn.abtcontact{
+    width: 50%;
+}
+.abtresumebtn button {
+    background-color: #FF7518;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-transform: uppercase;
+    display: flex;
+    
+    
+  }
+  
+.abtresumebtn button:hover{
+    background: #d65a31;
+}
+
+@media (max-width: 992px){
+	
+    
+    .abtresumebtn button {
+        padding: 10px 30px;
+        margin: 0px 6px;
+    }
+    
+    
+}
+
+@media (max-width: 728px){
+	
+
+    .about{
+        padding: 0px;
+        padding-top: 25px;
+    }
+    .abtresumebtn button {
+        padding: 7px 10px;
+        margin: 0px 6px;
+        font-size: 1rem;
+    }
+    .about .box2{
+        margin-top: 10%;
+        display: inline-block;
+        height: auto;
+        width: auto;
+        
+    }
+
+    .aboutimage{
+        height: 40%;
+        width: 90%;
+    }
+    .about .aboutimg{
+        margin: auto;
+        width: 100%;
+        height: 40%;
+    }
+    .about .abouttxt{
+        margin: auto;
+        width: 90%;
+        font-size: 0.5rem;
+    }
+    
+    .aboutdesc{
+        padding: 20px 0px 0px 0px;
+        text-align: none;
+        word-spacing: normal;
+        font-size: 0.8rem;
+        
+    }
+    .descp{
+        font-size: 0.8rem;
+    }
+    .aboutheader{
+        padding: 0px;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+    .aboutheader h1{
+        
+        text-align: center;
+        
+    }
+}
